@@ -1,0 +1,110 @@
+# ============================================
+# FLUTTER/DART
+# ============================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.fvm/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter/
+.sconsign.dblite
+.pubspec.lock
+
+# ============================================
+# BUILD Y COMPILACIÓN
+# ============================================
+build/
+**/build/
+*.a
+*.o
+*.so
+*.class
+*.jar
+
+# ============================================
+# ANDROID ESPECÍFICO
+# ============================================
+# Gradle
+android/.gradle/
+android/gradle/
+gradle/
+gradlew
+gradlew.bat
+.gradle/
+
+# Android Studio
+android/.idea/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build de Android
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+android/app/src/main/res/raw/*
+!android/app/src/main/res/raw/.gitkeep
+
+# Archivos generados
+android/app/src/main/java/io/flutter/plugins/
+android/app/src/main/kotlin/io/flutter/plugins/
+android/app/src/main/java/com/example/app/GeneratedPluginRegistrant.java
+android/app/src/main/kotlin/com/example/app/GeneratedPluginRegistrant.kt
+
+# Keystores (NUNCA subir)
+*.keystore
+*.jks
+*.key
+*.p12
+*.cert
+*.pem
+
+# ============================================
+# ARCHIVOS DE DESARROLLO
+# ============================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ============================================
+# ARCHIVOS DE SISTEMA
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ============================================
+# ARCHIVOS DE ENTORNO Y CONFIGURACIÓN
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+.env.*.local
+
+# ============================================
+# LOGS Y CACHÉ
+# ============================================
+logs/
+*.log
+.cache/
+profiler/
+profile
+*.hprof
+
+# ============================================
+# ARCHIVOS TEMPORALES
+# ============================================
+*.tmp
+*.temp
+temp/
+tmp/
